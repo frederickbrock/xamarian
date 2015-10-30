@@ -1,0 +1,226 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34EF6E0A0000000000000000 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38807AA80000000000000000 /* Cocoa.framework */; };
+		34BC8AEE0000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384D978C0000000000000000 /* Foundation.framework */; };
+		AF7C63100000000000000000 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E88D2CF00000000000000000 /* MainWindow.xib */; };
+		2ADE54A30000000000000000 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E6F61410000000000000000 /* MainMenu.xib */; };
+		E55EFB300000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11E6FC510000000000000000 /* Info.plist */; };
+		8E2EB3800000000000000000 /* MainWindow.h in Sources */ = {isa = PBXBuildFile; fileRef = C73F7D600000000000000000 /* MainWindow.h */; };
+		1C345BF30000000000000000 /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC568910000000000000000 /* MainWindow.m */; };
+		34F8D1290000000000000000 /* MainWindowController.h in Sources */ = {isa = PBXBuildFile; fileRef = 3889DDC70000000000000000 /* MainWindowController.h */; };
+		3856FAAB0000000000000000 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE807490000000000000000 /* MainWindowController.m */; };
+		2BC1DCF40000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 2F52E9920000000000000000 /* AppDelegate.h */; };
+		1B9BB29F0000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2CBF3D0000000000000000 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		150BCAF20000000000000000 /* Pubnubsample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Pubnubsample.app"; path = "Pubnubsample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38807AA80000000000000000 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cocoa.framework"; path = "System/Library/Frameworks/Cocoa.framework"; sourceTree = SDKROOT; };
+		384D978C0000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		E88D2CF00000000000000000 /* MainWindow.xib */ = {isa = PBXFileReference; name = "MainWindow.xib"; path = "MainWindow.xib"; sourceTree = "<group>"; };
+		2E6F61410000000000000000 /* MainMenu.xib */ = {isa = PBXFileReference; name = "MainMenu.xib"; path = "MainMenu.xib"; sourceTree = "<group>"; };
+		11E6FC510000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		C73F7D600000000000000000 /* MainWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MainWindow.h"; path = "MainWindow.h"; sourceTree = "<group>"; };
+		1FC568910000000000000000 /* MainWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MainWindow.m"; path = "MainWindow.m"; sourceTree = "<group>"; };
+		3889DDC70000000000000000 /* MainWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MainWindowController.h"; path = "MainWindowController.h"; sourceTree = "<group>"; };
+		3BE807490000000000000000 /* MainWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MainWindowController.m"; path = "MainWindowController.m"; sourceTree = "<group>"; };
+		2F52E9920000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		1F2CBF3D0000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54B66D500000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34EF6E0A0000000000000000 /* Cocoa.framework in Frameworks */,
+				34BC8AEE0000000000000000 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2564D8630000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				FFE8CAF00000000000000000 /* Pubnubsample */,
+				3017FE3D0000000000000000 /* Frameworks */,
+				1AB1B2890000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AB1B2890000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				150BCAF20000000000000000 /* Pubnubsample.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		3017FE3D0000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				384D978C0000000000000000 /* Foundation.framework */,
+				38807AA80000000000000000 /* Cocoa.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		FFE8CAF00000000000000000 /* Pubnubsample */ = {
+			isa = PBXGroup;
+			children = (
+				2F52E9920000000000000000 /* AppDelegate.h */,
+				11E6FC510000000000000000 /* Info.plist */,
+				2E6F61410000000000000000 /* MainMenu.xib */,
+				C73F7D600000000000000000 /* MainWindow.h */,
+				E88D2CF00000000000000000 /* MainWindow.xib */,
+				3889DDC70000000000000000 /* MainWindowController.h */,
+				28C979AA0000000000000000 /* Supporting Files */,
+			);
+			name = "Pubnubsample";
+			sourceTree = "<group>";
+		};
+		28C979AA0000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F2CBF3D0000000000000000 /* AppDelegate.m */,
+				1FC568910000000000000000 /* MainWindow.m */,
+				3BE807490000000000000000 /* MainWindowController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		250183100000000000000000 /* Pubnubsample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A58A51800000000000000000 /* Build configuration list for PBXNativeTarget "Pubnubsample" */;
+			buildPhases = (
+				337627BF0000000000000000 /* Sources */,
+				54B66D500000000000000000 /* Frameworks */,
+				1C60C74A0000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pubnubsample";
+			productName = "Pubnubsample";
+			productReference = 150BCAF20000000000000000 /* Pubnubsample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		379CF2570000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3FA57F3E0000000000000000 /* Build configuration list for PBXProject "Pubnubsample" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2564D8630000000000000000;
+			productRefGroup = 1AB1B2890000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				250183100000000000000000 /* Pubnubsample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C60C74A0000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7C63100000000000000000 /* MainWindow.xib in Resources */,
+				2ADE54A30000000000000000 /* MainMenu.xib in Resources */,
+				E55EFB300000000000000000 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		337627BF0000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2EB3800000000000000000 /* MainWindow.h in Sources */,
+				1C345BF30000000000000000 /* MainWindow.m in Sources */,
+				34F8D1290000000000000000 /* MainWindowController.h in Sources */,
+				3856FAAB0000000000000000 /* MainWindowController.m in Sources */,
+				2BC1DCF40000000000000000 /* AppDelegate.h in Sources */,
+				1B9BB29F0000000000000000 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10944AA90000000000000000 /* MonoMac */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = macosx;
+			};
+			name = MonoMac;
+		};
+		1ED87D210000000000000000 /* MonoMac */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "Pubnubsample";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoMac;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FA57F3E0000000000000000 /* Build configuration list for PBXProject "Pubnubsample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10944AA90000000000000000 /* MonoMac */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoMac;
+		};
+		A58A51800000000000000000 /* Build configuration list for PBXNativeTarget "Pubnubsample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ED87D210000000000000000 /* MonoMac */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoMac;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 379CF2570000000000000000 /* Project object */;
+}
