@@ -2,9 +2,9 @@
 Mac based xamarian app that uses the pubnub mono sdk
 
 
-h1. Steps to create: 
+### Steps to create: 
 
-# Download the mac-mono sdk. 
-# Copy the Pubnub folder into your source solution
-# Add System.Configuration to your .net dependencies
-# Build
+1. Download the mac-mono sdk. 
+2. Copy the Pubnub folder into your source solution
+3. Add System.Configuration to your .net dependencies
+4. Build
